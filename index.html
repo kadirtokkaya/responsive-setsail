@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWİPER-CAROUSEL</title>
+    <!--*swiper.min.css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!--*bootstrap.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--*style.css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--*responsive.css-->
+    <link rel="stylesheet" href="css/responsive-menu.css">
+
+    <!--*fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="menu-1">
+        <div class="row g-0  h-100 menu-rows d-flex justify-content-between">
+
+            <div class="col g-0  menu1-logo ps-4 p-0">
+                <img src="img/logo-yellow.png" alt="" class="logo">
+                <img src="img/logo-white.png" class="responsive-logo" alt="">
+                <img src="img/phone-solid.svg" id="phone-svg" alt="">
+            </div>
+
+            <div class="col  g-0 d-flex menu-right align-items-center justify-content-end">
+                <div class="menu-icons d-flex align-items-center justify-content-center">
+                    <!--!MENÜ-->
+
+                    <input id="menu-toggle-input" type="checkbox" />
+                    <label class="menu-toggle" for="menu-toggle-input">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                    </label>
+                    <!---->
+                    <nav class="menu" id="menu">
+
+                        <div class="content-top ps-4">
+                            <img src="img/logo-white.png" alt="" class="logo">
+                        </div>
+
+                        <!--!MENÜ İÇERİK KISMI-->
+                        <div class="menu-content">
+                            <ul class="menu-item accordion-menu">
+                                <li>
+                                    <a class="items-menu dropdownlink">Homepages</a>
+                                    <ul class="menu-lower submenuItems">
+                                        <li>
+                                            <a href="">Travel Agency</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Vacation Showcase</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Summer Holidays</a>
+                                        </li>
+                                        <li>
+                                            <a href="">City Tours</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a class="items-menu dropdownlink">Pages</a>
+                                    <ul class="menu-lower submenuItems">
+                                        <li>
+                                            <a href="">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">FAQ Page</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a class="items-menu">Tours</a>
+                                    <ul class="menu-lower submenuItems">
+                                        <li>
+                                            <a href="">Tour List</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Tour Item</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="items-menu">Destinationsd</a>
+                                    <ul class="menu-lower submenuItems">
+                                        <li>
+                                            <a href="">Destination List</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Destination Item</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="items-menu">Landing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--!MENÜ İÇERİK KISMI-->
+
+                    </nav>
+
+                    <!--!MENÜ-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper  mySwiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-1.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Tropical</span>
+                            <h2>Exotic Places</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-2.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Stunning </span>
+                            <h2>Far Places</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-3.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Relaxing </span>
+                            <h2>Holiday</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-4.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Romantic</span>
+                            <h2>Wine Tour</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-5.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Relaxing </span>
+                            <h2>Country Side</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider-item" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, .47) 99%, rgba(0, 0, 0, .4) 100%), url(img/carousel-img-6.jpg);">
+                    <a href="#">
+                        <div class="item-text">
+                            <span>Active </span>
+                            <h2>Hiking</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--*jquery.min.js-->
+    <script src="js/jquery.min.js"></script>
+
+    <!--*swiper.min.js-->
+    <script src="js/swiper.min.js"></script>
+
+    <!--*bootstrap.min.js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--*script.js-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

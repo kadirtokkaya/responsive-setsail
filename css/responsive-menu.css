@@ -1,0 +1,122 @@
+.responsive-logo {
+    display: none;
+}
+
+#phone-svg {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .menu-1 {
+        height: 70px;
+        background-color: #3FD0D4;
+    }
+    .menu-rows {
+        flex-direction: row-reverse;
+    }
+    .menu-right {
+        justify-content: start !important;
+    }
+    .menu-icons {
+        background: transparent;
+    }
+    .logo {
+        display: none;
+    }
+    .responsive-logo {
+        display: block;
+        width: 110px;
+        height: auto;
+        position: absolute;
+        right: 45%;
+    }
+    .menu1-logo {
+        justify-content: end;
+        padding-right: 3% !important;
+    }
+    #phone-svg {
+        display: block;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .responsive-logo {
+        right: 43%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .responsive-logo {
+        right: 35%;
+    }
+    .menu1-logo {
+        justify-content: end;
+        padding-right: 25px !important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .responsive-logo {
+        right: 30%;
+    }
+}
+
+
+/* @media screen and (max-width:1024px) {
+    .menu-1 {
+        height: 70px;
+        background-color: #3FD0D4;
+    }
+    .menu-rows {
+        width: 80%;
+        position: relative;
+        margin: auto;
+        height: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .aa {
+        justify-content: start !important;
+    }
+    .menu-icons {
+        width: 70px;
+        height: 100%;
+        background: transparent;
+    }
+    .menu1-logo {
+        padding: 0 20px 0 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: end !important;
+    }
+    #phone-svg {
+        display: block;
+        width: 25px;
+    }
+    .logo {
+        display: none;
+    }
+    .responsive-logo {
+        display: block;
+        width: 110px;
+        height: auto;
+        position: absolute;
+        left: 45%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .responsive-logo {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .item-text span {
+        font-size: 28px;
+    }
+    .item-text h2 {
+        font-size: 30px;
+    }
+} */
